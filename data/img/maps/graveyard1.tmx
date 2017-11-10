@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="graveyard" tilewidth="16" tileheight="16">
+  <image source="../tilesets/graveyard.png" width="256" height="1152"/>
+ </tileset>
+ <tileset firstgid="1153" name="mundi1" tilewidth="32" tileheight="32">
+  <image source="../tilesets/mundi1.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1409" name="base" tilewidth="16" tileheight="16">
+  <image source="../tilesets/base.png" trans="ffffff" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="2369" name="ground" tilewidth="32" tileheight="32">
+  <image source="../tilesets/ground.png" trans="ffffff" width="96" height="128"/>
+ </tileset>
+ <layer name="ground" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl0tKA0EQhtuZWNBLTQQvEvUCippsjV4kj4tochEfFwlk6+MC5gFZ5i96mmQxY2Nt5l/M4qPmp6Eoim8xNT927kKcuxS+usBsGzDA96Pw1S1mO0MdgTFhPZewvxfUqfBVnU/39wbeCeu28G+ZObcCa/Cb8eS4vyx3LgctcJTz5Li/U3y3QQec5PXkax/yjd+/x/19YZff4Ad8ZvXkWx+yzqfoO5N/Op/mO8/pn87H6N994Vuv8K9P6l/Pl7+z+FeVWfyrynX791eO/y8M/pXl+P/C5Nthjvtj8u0wx/2x+Nb41/jX+Pc//7oS7mHrDZ3yydpXuQIPEu5h6w2d8snaV3kCQwn3sPWGTvlk7atMwLOEe9h6Q6d8svZVZuBVwj1svaFT/ln7Kh9gB679Tl0=
+  </data>
+ </layer>
+ <layer name="aboveGrass" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztVkGOwjAQy4VKfGD7Ijjtp8gP4LFwhaqy1ms8k4hSJKRaiiZNJ4nreKKWsmHDhm/HdVfKbbdOPD3Wr+V53OWir/gZ5ndTHIf/EeuP1Hd5mo94frRLec7j/mE/x+N+Hov0wzveA+tzvwYcOIdzkYd99HniBxypz/qNw1++7nE2+4JP7YiYg330WXVy+vH5Ol2y5+y7Iq68jurk9GNufDbOy8pL9ec5ys9xBX4D/2F9aM8c1cvMQ/V2/ne+0D10vjtf/lbVJ9KpSn41TWsBgKf1vE7BuWOM98nukSleaE7UolrIPK3nfjXeZv/dREf2lPqr0LieaauWsvt5+jZ3xuxNdw/x9zMvbq1aQszqFxyyelMfc51mnPj+V54cM/2yeou8wvMclAOPZfkK9Vh030U8W3Ep1GPRfRfxbMWliP6Penm2/Br5qhetey6qPXd/OP0yz/Xg1f/PXv/pvHfrF8Ve/7k6/gTWrtulWLtul2LT7z1YS7c7SeFYRA==
+  </data>
+ </layer>
+ <layer name="aboveGround" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlTlLA0EYhpdslZ8Rrz4Q7SMmJmoTQUE7BQXtEg/QLvHoFBKPTsHjD3h0HuDReYBH5/FbfIKzZBhmQzbZq8gLD983HzPJy7sDYxhttdVWPcVMw+iATo+rkz1dZs1f3LT3HpQSkqdkgP4GojbzkPizUyIk33fQx/zyEcMowAIsRlr7LS/yK+KpBGuw7tBfUVASay/yK+OpAjuw69BfWVAR6xyeRoWvRvLbYs+2WatVdVN7pLNHeDqGEziV/M3Qz0prOSfVY0UzbyS/A/YcmrVaVS+1D67gGs7wcA4XcAk3zG5hiX5Z8mfnw07N3r8U59LwBM9wh4d7eIBHeGH2Chv0mw6/d8yF+zfGuXH4gm94w8M7fMAn/DD7hT36fYf+5MzC+L4lXchPlnXn1SrLestS0X+sXq5pUd3Oz7rzam1WbufXiKy3LCO9aRlllvUov1aVUd7hsOSnrsOan6p4APkNiWyG69SRqLuektCvmWerftz5i5aUg1HNfAImffai0xRMa+ZzMO+zF53yUNDMV2DVZy9B6A+cA09C
+  </data>
+ </layer>
+ <layer name="graves" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1stKQkEYwHE3voGWDyAoWK3cZb5A2ragbJtvYlq6LS8Fuuke1KYyFXRTeQPddDF9lv7QESI+3Og5ozJ/+DGz8DDfEWS02XQ63aTbtP+uW3Zrzluw6BypPArCfpz2jPeJTuC97nAv7KXcCr7HKmrC/m/DufwK5uugK+xnKZW/D51ON935sIRlrCieRWoVAawhqHgWqXWEEMYGYthHHAkc4BBJpBTMt40dRLCLIxwjjQyyyOEEpwrm+98ZznGBS1zhGje4HfGc07jnFo3VZdK994BHPKGIZ5RQRkX4vMPi+/cFr3hDHQ000UJ7xHPD/wkeY/WaNPc7PvCJL/TwjT4G5hyp081dP9NJNIw=
+  </data>
+ </layer>
+</map>
